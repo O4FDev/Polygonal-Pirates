@@ -1,0 +1,9 @@
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://luke@localhost/pirates"
+}
+
+generator client {
+  provider        = "prisma-client-js"
+}
+
